@@ -6,12 +6,11 @@ public class P11382 {
 
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
+		Scanner sc1 = new Scanner(System.in);
 		
+		String num1 = sc1.next();
 		
-		
-
-		
+		System.out.println(num1);
 
 	}
 
