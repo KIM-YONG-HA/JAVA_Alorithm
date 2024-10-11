@@ -2,16 +2,14 @@ package baekjoon;
 
 import java.util.Scanner;
 
-public class P11382 {
+public class P10926 {
 
 	public static void main(String[] args) {
-		
+
 		Scanner sc = new Scanner(System.in);
+		String name = sc.next();
+		System.out.print(name+"??!");
 		
-		int x = sc.nextInt();
-		int y = sc.nextInt();
-		int z = sc.nextInt();
-		System.out.println(x+y+z);
 
 	}
 
