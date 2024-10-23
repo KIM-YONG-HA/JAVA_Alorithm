@@ -22,8 +22,7 @@ public class P10871 {
 			arr[i] = sc.nextInt();
 			
 			if(arr[i] < num) {
-				
-			System.out.print(arr[i]+"");
+			 if(i < num) System.out.print(arr[i]+" "); else System.out.print(arr[i]); 
 				
 			}
 				
